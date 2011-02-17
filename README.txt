@@ -1,6 +1,6 @@
 USB to Serial firmware used on the SparkFun ATmega8U2 Breakout Board, DEV-10277.
 
-This project is based off of the LUFA project and Arduino USB to Serial project. The firmware needs to be compiled against LUFA 100807. To do this, download LUFA and add the LUFA directory to the sparkfun_USBtoSerial project along side the Projects and Bootloaders directories.
+This project is based off of the LUFA project and Arduino USB to Serial project. The firmware needs to be compiled against LUFA 100807. To do this, download LUFA and add only the LUFA directory (/LUFA 100807/LUFA) to the sparkfun_USBtoSerial project along side the Projects and Bootloaders directories.
 
 Use:
 The USB to Serial Project firmware allows the Atmega8U2 to enumerate as a SparkFun COM Port, similar to the common FTDI chip. When asked for a driver, point to the sparkfun_USBtoSerial_driver.inf file.
